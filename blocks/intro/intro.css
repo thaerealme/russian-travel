@@ -1,0 +1,28 @@
+.intro {
+  max-width: 980px;
+  margin: auto;
+  margin-bottom: 96px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 690px);
+  grid-template-rows: minmax(58px, max-content) minmax(208px, max-content) minmax(90px, max-content);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: minmax(min-content, 720px);
+    margin: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    grid-template-columns: minmax(min-content, max-content);
+    margin: 0 16px 64px;
+  }
+}
