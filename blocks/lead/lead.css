@@ -10,6 +10,7 @@
 @media screen and (max-width: 1024px) {
   .lead {
     grid-template-rows: minmax(min-content, 88px) minmax(min-content, 128px) auto 14px;
+    margin: 0 48px 92px;
   }
 }
 
@@ -22,6 +23,6 @@
 @media screen and (max-width: 425px) {
   .lead {
     grid-template-rows: minmax(min-content, 88px) minmax(min-content, 80px) auto 14px;
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
   }
 }
