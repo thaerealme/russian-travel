@@ -20,4 +20,4 @@
 
 **Ссылка на проект GitHub Pages**
 
-URL: https://thaerealme.github.io/russian-travel/
+URL: [https://thaerealme.github.io/russian-travel/]
