@@ -5,6 +5,11 @@
   line-height: 1.17;
   text-decoration: none;
   color: #fff;
+  margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 625px) {
